@@ -1,6 +1,4 @@
-pandas==1.1.5
-numpy==1.21.6
-Flask==2.2.5
-Flask-Cors==4.0.0
-flatbuffers==23.5.26
+pandas==2.0.3
+numpy==1.25.2
+Flask==2.3.3
 gunicorn
