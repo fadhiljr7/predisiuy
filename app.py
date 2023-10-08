@@ -75,7 +75,7 @@ def predict():
 
         input_data = [[lb, lt, kt, km, GRS]]
         
-          # Get predictions for each model
+          # Get predictions for each model.
         linreg_prediction = linreg_model.predict(input_data)[0]
         rf_prediction = rf_model.predict(input_data)[0]
 
