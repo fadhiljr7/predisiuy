@@ -6,7 +6,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
-# Memuat model Regresi Linier dan Random Forest dari file pickle
+# Memuat model Regresi Linier dan Random Forest dari file pickle...
 with open('linreg_model.pkl', 'rb') as f:
     linreg_model = pickle.load(f)
 
